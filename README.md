@@ -1,37 +1,42 @@
-# SpringFinalModulo2
+# Proyecto Campcake - SprintFinal Modulo2
+
+Este proyecto consiste es una pagina web para un negocio independiente que permite presentar la empresa y recibir pedidos de clientes. 
+En este caso particular, se trata de una panaderia-pasteleria de nombre CampCake.
+En el futuro, se espera unir este proyecto con una base de datos de tal forma de poder almacenar los datos y pedidos de los clientes.
+
 ## Tabla de Contenidos
-* [Informacion General](#InfoGral)
+
 * [Tecnologias Usadas](#Tecnologias)
 * [Instalacion](#Instalacion)
-
-
-
-<a name="InfoGral"></a>
-## Informacion General 
-Este proyecto consite en crear una pagina web para un negocio independiente de tal forma de poder recibir pedidos de clientes. 
-En este caso particular, se trata de una panaderia-pasteleria de nombre CampCake.
-En el futuro, se espera unir este proyecto con una base de datos de tal forma de poder almacenar los datos y pedidosd elos cliente
+* [Consideraciones](#Consideraciones)
+* [Visualizacion del sitio web](#Visualizacion)
 
 <a name="Tecnologias"></a>
 ## Tecnologias
+
 Este proyecto fue creado usando:
 * HTML
 * CSS
-* Boostrap
-* JavaScript
-* JQuery
+* Boostrap   (https://getbootstrap.com/)
+* JavaScript (https://datatables.net/)
+* JQuery    (https://jquery.com/)
 * DataTable plugin
 
 <a name="Instalacion"></a>
 ## Instalacion
-Para descargar este proyecto se debe clonar desde este repositorio a un repositorio local.
+Para descargar este proyecto, se debe clonar desde este repositorio remoto a un repositorio local.
 
-git clone 
+$git clone https://github.com/valesc1971/ABPro7.git
 
 
+<a name="Consideraciones"></a>
 ## Consideraciones
 
-1. El sitio web creado es responsivo y tiene 4 paginas todas enlazadas entre si a traves de la barra de navegacion. Estas paginas HTML son:
+Se utilizo HTML como herramienta principal para la creacion del codigo utilizando archivos CSS para formato en conjunto con JavaScrips, JQuery, Boostrap y DataTable. Estas herramientas son llamadas desde los archivos HTML usando CDN.
+
+El codigo en JavaScripts y JQuery se ubican en Scripts/main.js. Este archivo es llamado desde los archivos HTML para su ejecucion.
+
+El sitio web creado es responsivo y tiene 4 paginas HTML enlazadas entre si a traves de la barra de navegacion. Estas paginas HTML son:
 * Inicio - presentacion de la empresa (index.html)
 * Productos - presentacion de los productos (productos.html)
 * Pedidos - Formulario para ingresar datos del cliente y pedidos (contacto.html)
@@ -45,16 +50,13 @@ Adicionalmente, cada una de estas paginas tiene su correspondiente archivo CSS
 
 El archivo LOGO1.png corresponde al logo de la empresa
 
-el codigo en JavaScripts y JQuery se ubican en Scripts/main.js. Este archivo es llamado desde los archivos HTML para su ejecucion
-    
-2.Se utilizo HTML como herramienta principal para la creacion del codigo utilizando archivos CSS para formato en conjunto con JavaScrips, JQuery, Boostrap y DataTable. Estas herramientas son llamadas desde los archivos HTML usando CDN
+La pagina "Pedidos" es un formulario que entrega alertas por datos y por tipo de datos. Una vez que se completa correctamente el formulario, aparece una alerta de confirmacion.
 
-3.La pagina "Pedidos" es un formulario que entrega alertas por datos y por tipo de datos. Una vez que se completa correctamente el formulario, aparece una alerta de confirmacion.
+Para desplegar la tabla de estadisticas se utilizo el plugin DataTable. https://datatables.net/. Considerando que este plugin entrega los strings en ingles, se ajustaron para que aparecieran en espanol.
 
-3. Para desplegar la tabla de estadisticas se utilizo el plugin DataTable. https://datatables.net/. Considerando que este plugin entrega los strings en ingles, se ajustaron para que aparecieran en espanol
+Para un buen funcionamiento del carrusel de Boostrap, se recomienda utilizar imagenes del mismo alto. Si no es asi, se debe ajusta el alto de la imagen y dejarlo fijo ajustado al de menor alto lo que hace perder la responsividad en esta parte.
 
-4. Para un buen funcionamiento del carrusel de Boostrap, se recomienda utilizar imagenes del mismo alto. Si no es asi, se debe ajusta el alto de la imagen y dejarlo fijo ajustado al de menor alto lo que hace perder la responsividad en esta parte.
-
+<a name="Visualizacion"></a>
 ## Visualizacion del sitio web
 ![image](https://user-images.githubusercontent.com/99301347/153718537-06c6ce1f-00cf-45ed-9460-52f8c606e2f3.png)
 ![image](https://user-images.githubusercontent.com/99301347/153718564-b28cc154-52f0-4cd9-aa8a-ea23b763074d.png)

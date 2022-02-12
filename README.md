@@ -32,9 +32,9 @@ $git clone https://github.com/valesc1971/ABPro7.git
 <a name="Consideraciones"></a>
 ## Consideraciones
 
-Se utilizo HTML como herramienta principal para la creacion del codigo utilizando archivos CSS para formato en conjunto con JavaScrips, JQuery, Boostrap y DataTable. Estas herramientas son llamadas desde los archivos HTML usando CDN.
+Se utilizo HTML como herramienta principal para la creacion del codigo utilizando archivos CSS para formato en conjunto con JavaScript, JQuery, Boostrap y DataTable. Estas herramientas son llamadas desde los archivos HTML usando CDN.
 
-El codigo en JavaScripts y JQuery se ubican en Scripts/main.js. Este archivo es llamado desde los archivos HTML para su ejecucion.
+El codigo en JavaScript y JQuery se ubican en Scripts/main.js. Este archivo es llamado desde los archivos HTML para su ejecucion.
 
 El sitio web creado es responsivo y tiene 4 paginas HTML enlazadas entre si a traves de la barra de navegacion. Estas paginas HTML son:
 * Inicio - presentacion de la empresa (index.html)

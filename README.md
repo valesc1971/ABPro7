@@ -8,7 +8,9 @@
 
 <a name="InfoGral"></a>
 ## Informacion General 
-Este proyecto consite en crear una pagina web para un negocio independiente de tal forma de poder recibir pedidos de clientes. En el futuro, se espera unir este proyecto con una base de datos de tal forma de poder almacenar los datos y pedidosd elos cliente
+Este proyecto consite en crear una pagina web para un negocio independiente de tal forma de poder recibir pedidos de clientes. 
+En este caso particular, se trata de una panaderia-pasteleria de nombre CampCake.
+En el futuro, se espera unir este proyecto con una base de datos de tal forma de poder almacenar los datos y pedidosd elos cliente
 
 <a name="Tecnologias"></a>
 ## Tecnologias
@@ -27,13 +29,33 @@ Para descargar este proyecto se debe clonar desde este repositorio a un reposito
 git clone 
 
 
-## Visualizacion del sitio web
-El sitio web creado tiene 4 paginas todas enlazdas entre si a traves de la barra de navegacion. Estas paginas son:
-* Inicio - presentacion de la empresa
-* Productos - presentacion de los productos
-* Pedidos - Formulario para ingresar datos del cliente y pedidos
-* Estaadisticas - Estadisticas de clientes y pedidos realizados
+## Consideraciones
 
+1. El sitio web creado es responsivo y tiene 4 paginas todas enlazadas entre si a traves de la barra de navegacion. Estas paginas HTML son:
+* Inicio - presentacion de la empresa (index.html)
+* Productos - presentacion de los productos (productos.html)
+* Pedidos - Formulario para ingresar datos del cliente y pedidos (contacto.html)
+* Estadisticas - Estadisticas de clientes y pedidos realizados (estadisticas)
+
+Adicionalmente, cada una de estas paginas tiene su correspondiente archivo CSS
+    style.ccs (index)
+    style-productos.css (productos)
+    style-contacto.css (contacto)
+    style-estadisticas.css (estadisticas)
+
+El archivo LOGO1.png corresponde al logo de la empresa
+
+el codigo en JavaScripts y JQuery se ubican en Scripts/main.js. Este archivo es llamado desde los archivos HTML para su ejecucion
+    
+2.Se utilizo HTML como herramienta principal para la creacion del codigo utilizando archivos CSS para formato en conjunto con JavaScrips, JQuery, Boostrap y DataTable. Estas herramientas son llamadas desde los archivos HTML usando CDN
+
+3.La pagina "Pedidos" es un formulario que entrega alertas por datos y por tipo de datos. Una vez que se completa correctamente el formulario, aparece una alerta de confirmacion.
+
+3. Para desplegar la tabla de estadisticas se utilizo el plugin DataTable. https://datatables.net/. Considerando que este plugin entrega los strings en ingles, se ajustaron para que aparecieran en espanol
+
+4. Para un buen funcionamiento del carrusel de Boostrap, se recomienda utilizar imagenes del mismo alto. Si no es asi, se debe ajusta el alto de la imagen y dejarlo fijo ajustado al de menor alto lo que hace perder la responsividad en esta parte.
+
+## Visualizacion del sitio web
 ![image](https://user-images.githubusercontent.com/99301347/153718537-06c6ce1f-00cf-45ed-9460-52f8c606e2f3.png)
 ![image](https://user-images.githubusercontent.com/99301347/153718564-b28cc154-52f0-4cd9-aa8a-ea23b763074d.png)
 ![image](https://user-images.githubusercontent.com/99301347/153718585-e1aab1fc-2ca2-4c3e-9489-e2dbf1125cdc.png)

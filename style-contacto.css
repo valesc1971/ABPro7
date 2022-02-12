@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-  
   font-family: 'Roboto', sans-serif;
-  
+
 }
-
-
-
 
 #nav-1{
   color: #fff
@@ -23,8 +19,8 @@ body {
 }
 
 #form-contact:hover {
-   color: rgba(30, 39, 46,1.0);
-   background-color:  #fff;
+  color: rgba(30, 39, 46,1.0);
+  background-color:  #fff;
 }
 
 .bg-black_1{
@@ -56,14 +52,10 @@ header{
 #btn-1 {
   width: 25%;
   margin-left: 38%;
-  
-  
 }
-
 
 div {
   text-align: center; 
-  
   color: #fff;
   background-color: rgba(30, 39, 46,1.0);
   
@@ -74,7 +66,6 @@ form {
 }
 
 form {
-    /* centrar el form*/
 margin: 0 auto;
 width: 400px;
 margin-top:1em;
@@ -82,9 +73,9 @@ padding: 1em;
 }
 
 ul {
-    list-style:none;
-    padding:0;
-    margin: 0;
+  list-style:none;
+  padding:0;
+  margin: 0;
 
 }
 form li + li {
@@ -92,11 +83,9 @@ form li + li {
 }
 
 label{
-    /*font-family: 'Roboto', sans-serif;*/
     display: inline-block;
-    width: 100%;
-    
-    }
+width: 100%;
+}
 
 #form-message {
   font-family: 'Roboto', sans-serif; 
@@ -106,11 +95,9 @@ label{
   background-color: rgba(0, 0, 0, 0);
 }
 
-
-.place::placeholder {
-  /*font-family: 'Roboto', sans-serif;*/
+::placeholder {
   color: rgba(30, 39, 46,1.0);
-  font-size: 10px
+  font-size: 90%;
 }
 
 footer div {
@@ -121,6 +108,4 @@ footer div {
   margin-top: 10px;
   margin-bottom: -20%;
   font-size: x-small;
-
 }
-

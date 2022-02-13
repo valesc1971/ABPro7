@@ -69,3 +69,7 @@ La Familia de Fuentes utilizada es 'Roboto', sans-serif  de GoogleFonts (https:/
 
 
 
+Este grupo de trabajo está conformado por:
+Valeria Sanchez, Fernando Quezada, Carlos Galleguillos y Alejandro Lanas.
+
+Ningún derecho reservado, disponible para su copia, modificación y/o distribución en pos del aprendizaje.

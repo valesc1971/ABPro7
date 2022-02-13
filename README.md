@@ -52,9 +52,13 @@ El archivo LOGO1.png corresponde al logo de la empresa
 
 La pagina "Pedidos" es un formulario que entrega alertas por datos y por tipo de datos. Una vez que se completa correctamente el formulario, aparece una alerta de confirmacion.
 
-Para desplegar la tabla de estadisticas se utilizo el plugin DataTable. https://datatables.net/. Considerando que este plugin entrega los strings en ingles, se ajustaron para que aparecieran en espanol.
+Para desplegar la tabla de estadisticas se utilizo el plugin DataTable. https://datatables.net/. Considerando que este plugin entrega los strings en ingles, se ajustaron para que aparecieran en espanol.En una primera instancia, al actualizar la tabla, esta mostraba la tabla sin formato antes de desplegar el formato requerido; para evitar esto, se incluyo la funcion .show().
 
 Para un buen funcionamiento del carrusel de Boostrap, se recomienda utilizar imagenes del mismo alto. Si no es asi, se debe ajusta el alto de la imagen y dejarlo fijo ajustado al de menor alto lo que hace perder la responsividad en esta parte.
+
+La Familia de Fuentes utilizada es 'Roboto', sans-serif  de GoogleFonts (https://fonts.google.com/)
+
+
 
 <a name="Visualizacion"></a>
 ## Visualizacion del sitio web
